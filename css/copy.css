@@ -1,0 +1,76 @@
+/* cuerpo de copiright y nosotros */
+
+#cuerpo {
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+/* especifico de copiright */
+.descripcion{
+        
+    width: 600px;
+    margin: 10px;
+    padding: 5px;
+
+}
+/* Titulos de copiright */
+h2 {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+/* texto de copiright */
+p {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+/* titulos de nosotros */
+.titulo {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+
+}
+h3 {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+.artículo{
+    box-align: center;    
+    width: 300px;
+    margin: 10px;
+    margin-top: 100px;
+    margin-bottom: 3em;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #bdbdbd;
+}
+.mapa{
+    text-align: center;
+    width: 80%;
+    margin: 10px;
+    margin-top: 80px;
+    margin-bottom: 3em;
+    padding: 15px;
+
+}
+ div .iframe{
+    width: 100%;
+    margin: 1em;
+    padding: 5px;
+ }

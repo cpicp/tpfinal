@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CpiClean:Pedidos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/comun.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+    
+    <!--Menú de Navegación-->
+    
+    <nav id="menu">
+      <label class="logo"><a href="../index.html"><img src="../Img/logo.png" class="logo" alt="Logo" title="CpiClean"/></a></label> 
+      <ul class="OP">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html">Productos</a>
+          <ul class="OP2">
+            <li><a href="../baño.html">Baño</a></li>
+            <li><a href="../auto.html">Auto</a></li>
+            <li><a href="../jardin.html">Jardín</a></li>
+            <li><a href="../Cocina.html">Cocina</a></li>
+          </ul>
+        </li>
+        <li><a href="#cuerpo">Pedidos</a></li>
+
+      </ul>
+    </nav>
+
+    <!--Cuerpo-->
+    <section id="cuerpo">
+
+      <div class="contact_form">
+
+        <div class="formulario">      
+          <h1>Formulario de Pedidos</h1>
+          <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+
+          <form id="formu" action="" method="post">                 
+            <p>
+              <label for="nombre" class="label">Nombre
+                <span class="obligatorio" id="nombreObligatorio">*</span>
+              </label>
+              <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+            </p>
+            <p>
+              <label for="email" class="label">Email
+                <span class="obligatorio">*</span>
+              </label>
+              <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+            </p>
+            <p>
+              <label for="telefono" class="label">Teléfono
+              </label>
+              <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+            </p> 
+            <p>
+              <label for="mensaje" class="label">Mensaje
+                <span class="obligatorio">*</span>
+              </label>                     
+              <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+            </p>                    
+
+            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+        
+            <p class="aviso">
+              <span class="obligatorio"> * </span>los campos son obligatorios.
+            </p>          
+                    
+          </form>
+        </div>  
+      </div>
+    </section>
+
+    <!--Pie-->
+    <footer>
+      <section >
+        <ul class="pie">
+          <a href=""><li><img src="../img/redes/facebook_30px.png" ></li></a>
+          <a href=""><li><img src="../img/redes/instagram_30px.png" ></li></a>
+          <a href=""><li><img src="../img/redes/twitter_30px.png" ></li></a>
+          <a href="Copiright.html"><li>Copyright</li></a>
+          <a href="Nosotros.html"><li>Sobre Nosotros</li></a>
+          <a href="#cuerpo"><li>Contacto</li></a>
+        </ul>
+      </section>
+    </footer>
+    <script src="../js/scrip.js" ></script>
+  </body>
+
+  </html>

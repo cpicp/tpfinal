@@ -1,0 +1,23 @@
+/*      AUTO      */
+
+#Cuerpo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    background-color: black;
+}
+
+ul li{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    color: chartreuse;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
